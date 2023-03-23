@@ -33,7 +33,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Bahar is a front-end engineer, based in Iran."
+    />
+    <title>Front-end Developer - Bahar</title>
   </head>
   <body>
     <div class="container">
@@ -42,14 +46,17 @@
           ><img
             src="media/Logo (3).png"
             class="logo d-none d-md-block"
-            alt="" />
+            alt="Bahar Logo"
+            title="Homepage" />
           <img src="media/logo-small.png" class="logo d-block d-md-none" alt=""
         /></a>
         <ul>
-          <li class="active"><a href="index.html"> Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active">
+            <a href="index.html" title="Homepage"> Home</a>
+          </li>
+          <li><a href="about.html" title="Aboutpage">About</a></li>
+          <li><a href="work.html" title="Workpage">Work</a></li>
+          <li><a href="contact.html" title="Contactpage">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -57,7 +64,11 @@
       <p>Hello, I am</p>
       <h1>Bahare Bahmani</h1>
       <h2 class="mb-5">Front-End Developer based in Iran</h2>
-      <div><a href="#" class="btn btn-branding"> Contact me </a></div>
+      <div>
+        <a href="contact.html" class="btn btn-branding" title="Contactpage">
+          Contact me
+        </a>
+      </div>
     </div>
     <p class="text-center m-5">
       "Whoever is happy will make others happy too." -Anne Frank
@@ -65,7 +76,7 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="media/santoor.png" class="img-fluid" alt="" />
+          <img src="media/santoor.png" class="img-fluid" alt="music project" />
         </div>
         <div class="col">
           <div class="project-description">
@@ -78,7 +89,7 @@
               and most beautiful things in the world cannot be seen or even
               touched — they must be felt with the heart. -Helen Keller
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -94,11 +105,15 @@
               and most beautiful things in the world cannot be seen or even
               touched — they must be felt with the heart. -Helen Keller
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="media/weather.png" class="img-fluid" alt="" />
+          <img
+            src="media/weather.png"
+            class="img-fluid"
+            alt="weather app project"
+          />
         </div>
       </div>
       <footer>
@@ -110,7 +125,12 @@
             <p>Lets work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="contact.html"
+              class="btn btn-branding mt-3"
+              title="Contactpage"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center">
@@ -123,6 +143,12 @@
           <a href=""><i class="fab fa-github"></i></a>
           <a href=""><i class="fab fa-facebook"></i></a>
         </div>
+        <p class="text-center mt-3">
+          This project was coded by Bahare Bahmani, and it is
+          <a href="https://github.com/Baharbhi/portfolio" target="_blank"
+            >open-scorced</a
+          >
+        </p>
       </footer>
     </div>
 
